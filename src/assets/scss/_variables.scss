@@ -2,26 +2,29 @@
 
 // Fonts
 $font-primary: "Red Hat Mono", monospace;
-$font-secondary: "Sen", sans-serif;
+// $font-secondary: "Sen", sans-serif;
 
 // Font size
-$mobile-logo-size: 1.875rem;
-$mobile-primary-size: 1.75rem;
-$mobile-secondary-size: 1rem;
-$mobile-tertiary-size: 0.875rem;
-$mobile-quanternnary-size: 1.5rem;
-$mobile-quinary-size: 0.6875rem;
+$font-size: 1.5rem;
+$font-size-big: 4.5rem;
 
-$tablet-primary-size: 4.5rem;
-$tablet-secondary-size: 1.5rem;
+// Widths and Heights
+$card-width: 15rem;
+$card-min-height: 10rem;
+$project-width: 500px;
 
 // Margins, Paddings and Gaps
-$margin: 0.625rem;
-$margin-title: 0.32rem;
-$margin-big: 1.875rem;
-$margin-small: 0.5rem;
 $margin-nav: 3.5rem;
+$margin-card-text: 0.5rem;
+$margin-projects-title: 1rem;
+$margin-project: 15px;
 $padding-header: 1.75rem 4.875rem;
+$padding-button: 0.25rem;
+$padding-card: 10px 12px;
+$padding-projects: 0 7rem;
+$padding-project: 16px 18px;
+$gap-project: 20px;
+$gap-projects: 40px;
 
 // Borders
 $border-radius: 0.4em;

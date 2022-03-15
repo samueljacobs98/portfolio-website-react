@@ -1,0 +1,36 @@
+@use "../../../assets/scss/variables" as *;
+
+.card {
+  background-color: $colour-background;
+  width: $card-width;
+  min-height: $card-min-height;
+  padding: $padding-card;
+  text-align: center;
+  border: 2px solid $color-white;
+  &__title {
+    font-size: $font-size;
+    text-decoration: underline;
+  }
+  &__line {
+    border-bottom: 2px solid $color-white;
+  }
+  &__title,
+  &__brief,
+  &__line {
+    margin-bottom: $margin-card-text;
+  }
+  &__skills {
+    display: flex;
+    justify-content: space-between;
+    &-left {
+      text-align: left;
+    }
+    &-right {
+      text-align: right;
+    }
+  }
+}
+
+.card:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,17 @@
+@use "../../../assets/scss/variables" as *;
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  border: 2px solid $color-white;
+  padding: 10px 15px;
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .links__link:hover {
+      cursor: pointer;
+    }
+  }
+}

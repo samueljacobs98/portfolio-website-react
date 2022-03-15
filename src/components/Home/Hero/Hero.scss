@@ -1,0 +1,18 @@
+@use "../../../assets/scss/variables" as *;
+
+.hero {
+  position: relative;
+  .hero__heading {
+    font-weight: normal;
+    font-size: $font-size-big;
+  }
+  .hero__text {
+    font-size: $font-size;
+  }
+  .hero__earth {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(1.5ch, 4ch);
+  }
+}

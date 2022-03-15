@@ -1,0 +1,34 @@
+@use "../../assets/scss/variables" as *;
+
+.home {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .home__sun {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.8;
+    z-index: -1;
+  }
+  .home__link {
+    position: absolute;
+    bottom: 0;
+    margin: $margin-nav;
+    > a,
+    > a:visited {
+      text-decoration: none;
+      color: $color-white;
+      background-color: $colour-orange;
+      padding: $padding-button;
+      border-radius: $padding-button;
+    }
+    > a:hover {
+      cursor: pointer;
+    }
+  }
+}

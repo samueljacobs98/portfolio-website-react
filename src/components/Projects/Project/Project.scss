@@ -1,0 +1,26 @@
+@use "../../../assets/scss/variables" as *;
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: $project-width;
+  max-height: 600px;
+  &__img {
+    max-width: $project-width;
+    max-height: 300px;
+    margin-bottom: $margin-project;
+  }
+  &__text {
+    border: 2px solid $color-white;
+    padding: $padding-project;
+    overflow: auto;
+  }
+  &__skills {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: $margin-project 0;
+  }
+}

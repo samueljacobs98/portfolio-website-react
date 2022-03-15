@@ -1,0 +1,43 @@
+@use "../../assets/scss/variables" as *;
+
+.projects {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: $padding-projects;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: $gap-projects;
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $gap-project;
+    .projects__title {
+      position: absolute;
+      transform: translateX(17vw)
+        translateY(calc(-100% - $margin-projects-title));
+      text-align: center;
+    }
+  }
+  &__next {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-btn {
+      cursor: pointer;
+    }
+  }
+  overflow: hidden;
+  &__moon {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transform: translate(40vw, 5vw);
+  }
+}

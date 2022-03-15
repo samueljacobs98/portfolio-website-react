@@ -1,5 +1,9 @@
 @use "../../assets/scss/variables" as *;
 .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   padding: $padding-header;
   display: flex;
   justify-content: space-between;
