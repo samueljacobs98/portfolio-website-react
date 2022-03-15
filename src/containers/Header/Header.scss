@@ -1,0 +1,7 @@
+@use "../../assets/scss/variables" as *;
+.header {
+  padding: $padding-header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

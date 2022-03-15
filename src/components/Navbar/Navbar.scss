@@ -1,0 +1,19 @@
+@use "../../assets/scss/variables" as *;
+.navbar {
+  display: flex;
+  align-items: center;
+
+  list-style-type: none;
+
+  &__link,
+  &__link:visited {
+    text-decoration: none;
+    color: $color-white;
+    margin-left: $margin-nav;
+    font-size: $mobile-quanternnary-size;
+  }
+  &__link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
