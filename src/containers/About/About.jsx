@@ -1,38 +1,26 @@
 import "./About.scss";
+import profileImg from "../../assets/images/profile-img.jpg";
+import aboutData from "../../assets/data/aboutData";
+
 const About = () => {
   return (
-    <div className="about">
-      <h2 class="about__title">About</h2>
-      <div class="about__container">
-        <div class="about__container-item">
-          <h3 class="about__item-title">Web Developer</h3>
-          <p class="about__item-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dui,
-            faucibus purus nulla enim. Lorem aliquet imperdiet diam rhoncus, et
-            lobortis. Accumsan amet tellus ultrices sagittis ullamcorper.
-            Tincidunt condimentum neque euismod cursus ultrices. Vel nunc, leo
-            commodo a curabitur enim felis elit nunc.{" "}
-          </p>
-        </div>
-        <div class="about__container-item">
-          <h3 class="about__item-title">Education</h3>
-          <p class="about__item-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dui,
-            faucibus purus nulla enim. Lorem aliquet imperdiet diam rhoncus, et
-            lobortis. Accumsan amet tellus ultrices sagittis ullamcorper.
-            Tincidunt condimentum neque euismod cursus ultrices. Vel nunc, leo
-            commodo a curabitur enim felis elit nunc.{" "}
-          </p>
-        </div>
-        <div class="about__container-item">
-          <h3 class="about__item-title">Photography</h3>
-          <p class="about__item-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dui,
-            faucibus purus nulla enim. Lorem aliquet imperdiet diam rhoncus, et
-            lobortis. Accumsan amet tellus ultrices sagittis ullamcorper.
-            Tincidunt condimentum neque euismod cursus ultrices. Vel nunc, leo
-            commodo a curabitur enim felis elit nunc.{" "}
-          </p>
+    <div className="about" id="about">
+      {/* <h2 className="about__title">About</h2> */}
+      <div className="about__content-container">
+        <img className="about__img" src={profileImg} alt="" />
+        <div className="about__container">
+          <div className="about__container-item">
+            <h3 className="about__item-title">Software Engineer</h3>
+            <p className="about__item-text">{aboutData.softEng}</p>
+          </div>
+          <div className="about__container-item">
+            <h3 className="about__item-title">Education</h3>
+            <p className="about__item-text">{aboutData.edu}</p>
+          </div>
+          <div className="about__container-item">
+            <h3 className="about__item-title">Photography</h3>
+            <p className="about__item-text">{aboutData.photo}</p>
+          </div>
         </div>
       </div>
     </div>

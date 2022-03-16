@@ -2,17 +2,59 @@
 
 .hero {
   position: relative;
-  .hero__heading {
+  &__heading {
     font-weight: normal;
     font-size: $font-size-big;
   }
-  .hero__text {
+  &__text {
     font-size: $font-size;
   }
-  .hero__earth {
+  &__earth {
     position: absolute;
     bottom: 0;
     right: 0;
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .hero {
+    &__heading {
+      font-size: 2rem;
+    }
+    &__text {
+      font-size: 1rem;
+    }
+    &__earth {
+      width: 50%;
+      animation-name: mob-floating;
+    }
+  }
+}
+
+@keyframes floating {
+  0% {
     transform: translate(1.5ch, 4ch);
+  }
+  50% {
+    transform: translate(1.5ch, calc(4ch - 20px));
+  }
+  100% {
+    transform: translate(1.5ch, 4ch);
+  }
+}
+
+@keyframes mob-floating {
+  0% {
+    transform: translate(0.8ch, 1ch);
+  }
+  50% {
+    transform: translate(0.8ch, calc(1ch - 10px));
+  }
+  100% {
+    transform: translate(0.8ch, 1ch);
   }
 }

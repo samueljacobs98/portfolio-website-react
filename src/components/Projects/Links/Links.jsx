@@ -7,11 +7,11 @@ const Links = () => {
     <div className="links">
       <div className="links__container">
         <p className="links__text">Code:</p>
-        <img className="links__link" src={github} alt="" srcset="" />
+        <img className="links__link" src={github} alt="" />
       </div>
       <div className="links__container">
         <p className="links__text">Code:</p>
-        <img className="links__link" src={preview} alt="" srcset="" />
+        <img className="links__link" src={preview} alt="" />
       </div>
     </div>
   );

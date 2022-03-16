@@ -1,6 +1,65 @@
 @use "../../assets/scss/variables" as *;
 
 .about {
+  position: relative;
   width: 100%;
   min-height: 100vh;
+  padding-bottom: 0;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+
+  &__content-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    // align-items: center;
+    // gap: $gap-project;
+    .about__img {
+      max-width: 300px;
+      align-self: flex-start;
+    }
+    .about__container {
+      align-self: center;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 300px);
+      gap: $gap-project;
+      width: 620px;
+      &-item {
+        max-width: 300px;
+      }
+    }
+  }
+  &__next {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-btn:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .about {
+    &__content-container {
+      .about__img {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .about {
+    margin-top: $margin-about;
+    .about__content-container {
+      .about__container {
+        justify-content: center;
+      }
+    }
+  }
 }

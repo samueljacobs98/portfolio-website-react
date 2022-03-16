@@ -4,40 +4,48 @@
   position: relative;
   width: 100%;
   min-height: 100vh;
-  padding: $padding-projects;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  gap: $gap-projects;
+  gap: $gap-project;
+  margin-top: $margin-project;
+
   &__container {
+    max-width: 500px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, $card-width);
     gap: $gap-project;
     .projects__title {
       position: absolute;
-      transform: translateX(17vw)
-        translateY(calc(-100% - $margin-projects-title));
+      width: 500px;
+      transform: translateY(calc(-100% - $margin-projects-title));
       text-align: center;
     }
   }
-  &__next {
-    position: absolute;
-    bottom: 0;
-    display: block;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &-btn {
-      cursor: pointer;
-    }
-  }
-  overflow: hidden;
   &__moon {
     position: absolute;
     z-index: -1;
     top: 0;
     left: 0;
     transform: translate(40vw, 5vw);
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .projects {
+    display: grid;
+    &__container {
+      order: 1;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects {
+    display: grid;
+    &__container {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
   }
 }

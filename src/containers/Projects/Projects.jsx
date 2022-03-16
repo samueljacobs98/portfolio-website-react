@@ -1,37 +1,26 @@
 import Card from "../../components/Projects/Card/Card";
 import Project from "../../components/Projects/Project/Project";
-import sectionBtn from "../../assets/svgs/section-button.svg";
 import moon from "../../assets/svgs/moon.svg";
 import "./Projects.scss";
+import projectData from "../../assets/data/projectData";
 
 const Projects = () => {
   const cardListJSX = (
     <>
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      {projectData.map((project) => {
+        return <Card key={project.id} data={project} />;
+      })}
     </>
   );
 
   return (
-    <div className="projects">
+    <div className="projects" id="projects">
       <Project />
       <main className="projects__container">
-        <h3 className="projects__title">Projects</h3>
+        <h3 className="projects__title">Featured Projects</h3>
         {cardListJSX}
       </main>
-      <div className="projects__next">
-        <img
-          className="projects__next-btn"
-          src={sectionBtn}
-          alt="jump to about me"
-          srcset=""
-        />
-      </div>
-      <img className="projects__moon" src={moon} alt="" srcset="" />
+      <img className="projects__moon" src={moon} alt="" />
     </div>
   );
 };

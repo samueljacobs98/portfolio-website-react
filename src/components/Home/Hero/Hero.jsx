@@ -9,7 +9,7 @@ const Hero = () => {
         <br />
         in London, England
       </p>
-      <img className="hero__earth" src={earth} alt="" srcset="" />
+      <img className="hero__earth" src={earth} alt="" />
     </div>
   );
 };

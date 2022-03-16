@@ -7,24 +7,32 @@ $font-primary: "Red Hat Mono", monospace;
 // Font size
 $font-size: 1.5rem;
 $font-size-big: 4.5rem;
+$font-size-form-label: 0.6875rem;
+$font-size-form: 0.875rem;
 
 // Widths and Heights
 $card-width: 15rem;
 $card-min-height: 10rem;
 $project-width: 500px;
+$submit-min-height: 1.75rem;
 
 // Margins, Paddings and Gaps
-$margin-nav: 3.5rem;
+$margin-nav: 5rem;
 $margin-card-text: 0.5rem;
 $margin-projects-title: 1rem;
-$margin-project: 15px;
+$margin-project: 1.5rem;
+$margin-about: 2.25rem;
+$margin-form: 0.5rem;
+$margin-form-title: 0.32rem;
+$margin-form-submit: 0.625rem;
 $padding-header: 1.75rem 4.875rem;
 $padding-button: 0.25rem;
 $padding-card: 10px 12px;
 $padding-projects: 0 7rem;
 $padding-project: 16px 18px;
+$padding-about: 100px;
 $gap-project: 20px;
-$gap-projects: 40px;
+$gap-projects: 10px;
 
 // Borders
 $border-radius: 0.4em;

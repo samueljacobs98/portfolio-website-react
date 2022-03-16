@@ -17,7 +17,7 @@ const Project = () => {
   return (
     <section className="project">
       <h3 className="project__heading">2048 Game</h3>
-      <img className="project__img" src={img2048} alt="" srcset="" />
+      <img className="project__img" src={img2048} alt="" />
       <p className="project__text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quisque
         orci imperdiet sit bibendum. Faucibus interdum adipiscing placerat diam
