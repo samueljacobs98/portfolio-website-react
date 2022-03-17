@@ -27,12 +27,16 @@
     z-index: -1;
     top: 0;
     left: 0;
-    transform: translate(40vw, 5vw);
+    animation-name: moon-floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
   }
 }
 
 @media screen and (max-width: 1060px) {
   .projects {
+    padding-top: 3rem;
     display: grid;
     &__container {
       order: 1;
@@ -47,5 +51,17 @@
       grid-template-columns: 1fr;
       justify-items: center;
     }
+  }
+}
+
+@keyframes moon-floating {
+  0% {
+    transform: translate(52vw, 5vw);
+  }
+  50% {
+    transform: translate(52vw, calc(5vw - 20px));
+  }
+  100% {
+    transform: translate(52vw, 5vw);
   }
 }

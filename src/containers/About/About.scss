@@ -6,18 +6,15 @@
   min-height: 100vh;
   padding-bottom: 0;
   display: flex;
-  // justify-content: center;
   align-items: center;
 
   &__content-container {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    // align-items: center;
-    // gap: $gap-project;
     .about__img {
       max-width: 300px;
-      align-self: flex-start;
+      align-self: center;
     }
     .about__container {
       align-self: center;
@@ -40,6 +37,12 @@
     &-btn:hover {
       cursor: pointer;
     }
+  }
+  &__sun {
+    position: absolute;
+    left: 0;
+    top: -50%;
+    z-index: -1;
   }
 }
 

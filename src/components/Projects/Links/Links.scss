@@ -1,6 +1,8 @@
 @use "../../../assets/scss/variables" as *;
 
 .links {
+  background-color: $colour-background;
+  opacity: 0.75;
   display: flex;
   justify-content: space-between;
   gap: 30px;

@@ -1,6 +1,7 @@
 import "./About.scss";
 import profileImg from "../../assets/images/profile-img.jpg";
 import aboutData from "../../assets/data/aboutData";
+import sun from "../../assets/svgs/sun-side.svg";
 
 const About = () => {
   return (
@@ -23,6 +24,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <img className="about__sun" src={sun} alt="the sun" />
     </div>
   );
 };

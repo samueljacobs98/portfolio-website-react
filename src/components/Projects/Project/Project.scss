@@ -9,7 +9,6 @@
   max-height: 600px;
   &__img {
     max-width: $project-width;
-    // max-height: 300px;
     width: 100%;
     margin-bottom: $margin-project;
   }
@@ -17,6 +16,8 @@
     border: 2px solid $color-white;
     padding: $padding-project;
     overflow: auto;
+    background-color: $colour-background;
+    opacity: 0.75;
   }
   &__skills {
     display: flex;

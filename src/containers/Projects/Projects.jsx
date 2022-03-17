@@ -20,7 +20,7 @@ const Projects = () => {
         <h3 className="projects__title">Featured Projects</h3>
         {cardListJSX}
       </main>
-      <img className="projects__moon" src={moon} alt="" />
+      <img className="projects__moon" src={moon} alt="the moon" />
     </div>
   );
 };

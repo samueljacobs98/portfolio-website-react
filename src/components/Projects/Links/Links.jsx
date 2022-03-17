@@ -1,6 +1,6 @@
-import "./Links.scss";
 import github from "../../../assets/svgs/github.svg";
 import preview from "../../../assets/svgs/preview.svg";
+import "./Links.scss";
 
 const Links = () => {
   return (
