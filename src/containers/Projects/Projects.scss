@@ -21,6 +21,19 @@
       transform: translateY(calc(-100% - $margin-projects-title));
       text-align: center;
     }
+
+    .projects__show-more {
+      text-decoration: none;
+      color: $colour-background;
+      background-color: $colour-orange;
+      padding: $padding-button;
+      border-radius: $padding-button;
+      box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+      border: none;
+    }
+    .projects__show-more:hover {
+      cursor: pointer;
+    }
   }
   &__moon {
     position: absolute;
