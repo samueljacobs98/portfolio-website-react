@@ -1,70 +1,21 @@
 @use "../../assets/scss/variables" as *;
 
 .contact {
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   min-height: 100vh;
 
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    .contact-form__field {
-      border: solid 1px #c4c4c4;
-      border-radius: $border-radius;
-
-      width: 100%;
-      max-width: 26rem;
-
-      margin: $margin-form 0;
-
-      .contact-form__input-name {
-        margin-left: 10%;
-        padding: 0 $margin-form-title;
-
-        font-size: $font-size-form-label;
-
-        background-color: $colour-background;
-      }
-
-      .contact-form__input,
-      .contact-form__textarea {
-        border: none;
-
-        width: 90%;
-        margin: 0 2px;
-
-        background-color: transparent;
-
-        font-size: $font-size-form;
-        padding: $margin-form-title;
-      }
-
-      .contact-form__textarea {
-        border: none;
-      }
-    }
-    .contact-form__submit {
-      background-color: $colour-orange;
-      border: none;
-      border-radius: 2px;
-
-      font-family: $font-primary;
-      color: $colour-background;
-      font-size: $font-size-form;
-
-      min-width: 66px;
-      min-height: $submit-min-height;
-      margin-top: $margin-form-submit;
-
-      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    }
-    .contact-form__submit:hover {
-      cursor: pointer;
-    }
+  &__anchor,
+  &__anchor:visited {
+    text-decoration: none;
+    color: $colour-background;
+    background-color: $colour-orange;
+    padding: $padding-button;
+    border-radius: $padding-button;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
   }
 }

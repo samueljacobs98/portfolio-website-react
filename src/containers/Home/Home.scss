@@ -8,24 +8,25 @@
   justify-content: center;
   align-items: center;
 
-  .home__sun {
+  &__sun {
     position: absolute;
     top: 0;
     right: 0;
     opacity: 0.8;
     z-index: -1;
   }
-  .home__link {
+  &__link {
     position: absolute;
     bottom: 0;
     margin: $margin-nav;
     > a,
     > a:visited {
       text-decoration: none;
-      color: $color-white;
+      color: $colour-background;
       background-color: $colour-orange;
       padding: $padding-button;
       border-radius: $padding-button;
+      box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
     }
     > a:hover {
       cursor: pointer;

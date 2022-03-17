@@ -1,5 +1,5 @@
 import React from "react";
-import Links from "../Links/Links";
+import ProjectLinks from "../ProjectLinks/ProjectLinks";
 import img2048 from "../../../assets/images/2048screenshot.png";
 
 import "./Project.scss";
@@ -27,7 +27,7 @@ const Project = () => {
         in velit, integer.
       </p>
       <div className="project__skills">{skillJSX}</div>
-      <Links />
+      <ProjectLinks />
     </section>
   );
 };

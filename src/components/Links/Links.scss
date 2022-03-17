@@ -1,0 +1,45 @@
+.links {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  &__lines {
+    height: 40vh;
+  }
+  &__icon {
+    margin: 15px;
+  }
+  &__icon:hover {
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .links {
+    flex-direction: row;
+    &__lines {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .links {
+    display: none;
+  }
+}
+@media screen and (max-width: 850px) {
+  .contact {
+    .links {
+      width: 100%;
+      display: flex;
+      position: absolute;
+      justify-content: center;
+      margin-right: 0;
+    }
+  }
+}
