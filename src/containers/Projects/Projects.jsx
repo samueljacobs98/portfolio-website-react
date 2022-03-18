@@ -37,7 +37,7 @@ const Projects = () => {
   };
 
   const handleClick = (id) => {
-    console.log(id);
+    setProjectToShow(id);
   };
 
   const cardListJSX = (
@@ -56,7 +56,8 @@ const Projects = () => {
   );
 
   // useEffect(() => {
-  // });
+  //   console.log(projectToShow);
+  // }, [projectToShow]);
 
   const ProjectJSX = <Project data={projects[projectToShow]} />;
 
