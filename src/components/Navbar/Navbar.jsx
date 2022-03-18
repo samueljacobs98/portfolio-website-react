@@ -2,11 +2,6 @@ import "./Navbar.scss";
 const Navbar = () => {
   return (
     <ul className="navbar">
-      {/* <li>
-        <a className="navbar__link" href="#home">
-          Home
-        </a>
-      </li> */}
       <li>
         <a className="navbar__link" href="#projects">
           Projects

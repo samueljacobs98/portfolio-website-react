@@ -1,0 +1,55 @@
+@use "../../assets/scss/variables.scss" as *;
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: $colour-background;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  &__links {
+    list-style-type: none;
+    text-align: center;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__link,
+  &__link:visited {
+    text-decoration: none;
+    color: $color-white;
+    font-size: $font-size;
+  }
+
+  &--inactive {
+    background-color: transparent;
+  }
+
+  .links {
+    display: flex;
+    position: relative;
+  }
+}
+
+.hamburger,
+.menu__close {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: $margin-fixed;
+  z-index: 1;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
