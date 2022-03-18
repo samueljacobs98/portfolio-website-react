@@ -9,6 +9,7 @@ const Projects = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [projects, setProjects] = useState([...projectData]);
   const [toggle, setToggle] = useState(true);
+  const [projectToShow, setProjectToShow] = useState(0);
 
   const handleResize = () => {
     setWindowWidth(window.innerWidth);
@@ -35,17 +36,33 @@ const Projects = () => {
     setToggle(!toggle);
   };
 
+  const handleClick = (id) => {
+    console.log(id);
+  };
+
   const cardListJSX = (
     <>
-      {projects.map((project) => {
-        return <Card key={project.id} data={project} />;
+      {projects.map((project, index) => {
+        return (
+          <Card
+            key={project.id}
+            data={project}
+            handleClick={handleClick}
+            index={index}
+          />
+        );
       })}
     </>
   );
 
+  // useEffect(() => {
+  // });
+
+  const ProjectJSX = <Project data={projects[projectToShow]} />;
+
   return (
     <div className="projects" id="projects">
-      <Project />
+      {ProjectJSX}
       <main className="projects__container">
         <h3 className="projects__title">Featured Projects</h3>
         {cardListJSX}

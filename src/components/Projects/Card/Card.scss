@@ -29,8 +29,11 @@
       text-align: right;
     }
   }
+  outline: 0px solid $color-white;
+  transition: outline 0.75s ease-in-out;
 }
 
 .card:hover {
   cursor: pointer;
+  outline: 4px solid $color-white;
 }

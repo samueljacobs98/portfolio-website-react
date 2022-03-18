@@ -1,12 +1,12 @@
 import "./Card.scss";
 
-const Card = ({ data }) => {
-  const { title, desc, skills } = data;
+const Card = ({ data, handleClick, index }) => {
+  const { title, shortDesc, skills } = data;
 
   return (
-    <div className="card">
+    <div className="card" onClick={() => handleClick(index)}>
       <p className="card__title">{title}</p>
-      <p className="card__brief">{desc}</p>
+      <p className="card__brief">{shortDesc}</p>
       <div className="card__line"></div>
       <div className="card__skills">
         <div className="card__skills-left">

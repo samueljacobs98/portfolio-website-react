@@ -1,18 +1,20 @@
-import github from "../../../assets/svgs/github.svg";
-import preview from "../../../assets/svgs/preview.svg";
+import githubSvg from "../../../assets/svgs/github.svg";
+import previewSvg from "../../../assets/svgs/preview.svg";
 import "./ProjectLinks.scss";
 
-const ProjectLinks = () => {
+const ProjectLinks = ({ links }) => {
+  const { github, deployed } = links;
+
   return (
     <div className="project-links">
-      <div className="project-links__container">
+      <a href={github} className="project-links__container">
         <p className="project-links__text">Code:</p>
-        <img className="project-links__link" src={github} alt="" />
-      </div>
-      <div className="project-links__container">
+        <img className="project-links__link" src={githubSvg} alt="" />
+      </a>
+      <a href={deployed} className="project-links__container">
         <p className="project-links__text">Code:</p>
-        <img className="project-links__link" src={preview} alt="" />
-      </div>
+        <img className="project-links__link" src={previewSvg} alt="" />
+      </a>
     </div>
   );
 };
