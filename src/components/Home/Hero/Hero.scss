@@ -13,7 +13,7 @@
     position: absolute;
     bottom: -2ch;
     right: -0.5ch;
-    animation-name: earth-floating;
+    animation-name: floating;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
@@ -31,12 +31,12 @@
     &__earth {
       width: 50%;
       bottom: 1ch;
-      animation-name: earth-mob-floating;
+      animation-name: mob-floating;
     }
   }
 }
 
-@keyframes earth-floating {
+@keyframes floating {
   0% {
     transform: translate(0, 0);
   }
@@ -48,7 +48,7 @@
   }
 }
 
-@keyframes earth-mob-floating {
+@keyframes mob-floating {
   0% {
     transform: translate(0, 0);
   }

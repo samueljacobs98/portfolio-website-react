@@ -38,9 +38,9 @@
   &__moon {
     position: absolute;
     z-index: -1;
-    top: 0;
-    left: 0;
-    animation-name: moon-floating;
+    top: 4%;
+    left: 65%;
+    animation-name: floating;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
