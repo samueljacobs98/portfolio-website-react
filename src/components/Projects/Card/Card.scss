@@ -11,6 +11,9 @@
     font-size: $font-size;
     text-decoration: underline;
   }
+  &__brief {
+    font-family: $font-secondary;
+  }
   &__line {
     border-bottom: 2px solid $color-white;
   }

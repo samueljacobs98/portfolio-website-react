@@ -1,8 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;500;700&family=Sen:wght@400;700;800&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@400;500;700&family=Sen:wght@400;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans&display=swap");
 
 // Fonts
-$font-primary: "Red Hat Mono", monospace;
-// $font-secondary: "Sen", sans-serif;
+$font-primary: "IBM Plex Mono", monospace;
+// $font-primary: "IBM Plex Sans", sans-serif;
+$font-secondary: "IBM Plex Sans", sans-serif;
 
 // Font size
 $font-size: 1.5rem;

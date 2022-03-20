@@ -14,10 +14,14 @@
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: $gap-project;
+    align-items: center;
     margin: 20px;
 
     .about__summary-container {
-      max-width: 600px;
+      max-width: 400px;
+      > p {
+        font-family: $font-secondary;
+      }
     }
     .about__img {
       max-width: $max-width-pp;
