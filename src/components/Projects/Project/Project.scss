@@ -17,6 +17,8 @@
     padding: $padding-project;
     overflow: auto;
     background-color: $colour-background;
+  }
+  &__para {
     font-family: $font-secondary;
   }
   &__skills {
