@@ -18,4 +18,13 @@
     margin-top: 20px;
     box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
   }
+
+  &__earth {
+    position: absolute;
+    z-index: -1;
+    animation-name: earth-floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
 }

@@ -11,8 +11,8 @@
   }
   &__earth {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: -2ch;
+    right: -0.5ch;
     animation-name: earth-floating;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -30,6 +30,7 @@
     }
     &__earth {
       width: 50%;
+      bottom: 1ch;
       animation-name: earth-mob-floating;
     }
   }
@@ -37,24 +38,24 @@
 
 @keyframes earth-floating {
   0% {
-    transform: translate(1.5ch, 4ch);
+    transform: translate(0, 0);
   }
   50% {
-    transform: translate(1.5ch, calc(4ch - 20px));
+    transform: translate(0, -20px);
   }
   100% {
-    transform: translate(1.5ch, 4ch);
+    transform: translate(0, 0);
   }
 }
 
 @keyframes earth-mob-floating {
   0% {
-    transform: translate(0.8ch, 1ch);
+    transform: translate(0, 0);
   }
   50% {
-    transform: translate(0.8ch, calc(1ch - 10px));
+    transform: translate(0, -10px);
   }
   100% {
-    transform: translate(0.8ch, 1ch);
+    transform: translate(0, 0);
   }
 }

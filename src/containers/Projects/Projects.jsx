@@ -55,10 +55,6 @@ const Projects = () => {
     </>
   );
 
-  // useEffect(() => {
-  //   console.log(projectToShow);
-  // }, [projectToShow]);
-
   const ProjectJSX = <Project data={projects[projectToShow]} />;
 
   return (
