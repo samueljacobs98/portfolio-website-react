@@ -16,9 +16,7 @@
     grid-template-columns: repeat(auto-fit, $card-width);
     gap: $gap-project;
     .projects__title {
-      position: absolute;
-      width: 500px;
-      transform: translateY(calc(-100% - $margin-projects-title));
+      grid-column: 1 / -1;
       text-align: center;
     }
 
