@@ -12,7 +12,7 @@ const ProjectLinks = ({ links }) => {
         <img className="project-links__link" src={githubSvg} alt="" />
       </a>
       <a href={deployed} className="project-links__container">
-        <p className="project-links__text">Code:</p>
+        <p className="project-links__text">Preview:</p>
         <img className="project-links__link" src={previewSvg} alt="" />
       </a>
     </div>
