@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 const Projects = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [projects, setProjects] = useState([...projectData]);
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   const [projectToShow, setProjectToShow] = useState(0);
 
   const handleResize = () => {
@@ -24,9 +24,10 @@ const Projects = () => {
         : [...projectData];
     setProjects([...projectsToShow]);
     setToggle(windowWidth > 600 ? false : true);
-  }, [windowWidth, toggle]);
+  }, [windowWidth]);
 
   useEffect(() => {
+    console.log(toggle);
     toggle
       ? setProjects([...projectData].slice(0, 3))
       : setProjects([...projectData]);
