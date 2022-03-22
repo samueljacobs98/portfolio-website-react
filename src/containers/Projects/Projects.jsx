@@ -24,7 +24,7 @@ const Projects = () => {
         : [...projectData];
     setProjects([...projectsToShow]);
     setToggle(windowWidth > 600 ? false : true);
-  }, [windowWidth]);
+  }, [windowWidth, toggle]);
 
   useEffect(() => {
     toggle
@@ -49,6 +49,7 @@ const Projects = () => {
             data={project}
             handleClick={handleClick}
             index={index}
+            projectToShow={projectToShow}
           />
         );
       })}

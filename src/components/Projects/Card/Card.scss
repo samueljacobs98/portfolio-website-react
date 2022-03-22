@@ -7,6 +7,17 @@
   padding: $padding-card;
   text-align: center;
   border: 2px solid $color-white;
+
+  &:hover {
+    cursor: pointer;
+    outline: 4px solid $color-white;
+  }
+
+  &--active {
+    box-shadow: 3px 3px 5px $colour-orange;
+    border: 2px solid $colour-orange;
+  }
+
   &__title {
     font-size: $font-size;
     text-decoration: underline;
@@ -34,9 +45,4 @@
   }
   outline: 0px solid $color-white;
   transition: outline 0.75s ease-in-out;
-}
-
-.card:hover {
-  cursor: pointer;
-  outline: 4px solid $color-white;
 }

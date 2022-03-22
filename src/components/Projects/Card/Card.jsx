@@ -1,10 +1,12 @@
 import "./Card.scss";
 
-const Card = ({ data, handleClick, index }) => {
-  const { title, shortDesc, skills } = data;
+const Card = ({ data, handleClick, index, projectToShow }) => {
+  const { title, shortDesc, skills, id } = data;
+
+  let cardClassName = id === projectToShow ? "card card--active" : "card";
 
   return (
-    <div className="card" onClick={() => handleClick(index)}>
+    <div className={cardClassName} onClick={() => handleClick(index)}>
       <p className="card__title">{title}</p>
       <p className="card__brief">{shortDesc}</p>
       <div className="card__line"></div>
