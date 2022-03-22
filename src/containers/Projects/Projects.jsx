@@ -27,7 +27,6 @@ const Projects = () => {
   }, [windowWidth]);
 
   useEffect(() => {
-    console.log(toggle);
     toggle
       ? setProjects([...projectData].slice(0, 3))
       : setProjects([...projectData]);
