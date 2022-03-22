@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-website-react/static/css/main.a7d3080e.css",
-    "main.js": "/portfolio-website-react/static/js/main.9ceff5ed.js",
+    "main.js": "/portfolio-website-react/static/js/main.94efd675.js",
     "static/js/787.0b679274.chunk.js": "/portfolio-website-react/static/js/787.0b679274.chunk.js",
     "static/media/ticketscreenshot.png": "/portfolio-website-react/static/media/ticketscreenshot.787aff795a78272692b9.png",
     "static/media/vocabscreenshot.png": "/portfolio-website-react/static/media/vocabscreenshot.a0787b7ab41e7a95d36d.png",
@@ -26,11 +26,11 @@
     "static/media/hamburger.svg": "/portfolio-website-react/static/media/hamburger.130952224907f6679ddb13682e645ed4.svg",
     "static/media/link-lines.svg": "/portfolio-website-react/static/media/link-lines.f47b34909512fc1fae8f40d4fe967ef4.svg",
     "main.a7d3080e.css.map": "/portfolio-website-react/static/css/main.a7d3080e.css.map",
-    "main.9ceff5ed.js.map": "/portfolio-website-react/static/js/main.9ceff5ed.js.map",
+    "main.94efd675.js.map": "/portfolio-website-react/static/js/main.94efd675.js.map",
     "787.0b679274.chunk.js.map": "/portfolio-website-react/static/js/787.0b679274.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7d3080e.css",
-    "static/js/main.9ceff5ed.js"
+    "static/js/main.94efd675.js"
   ]
 }
