@@ -1,9 +1,10 @@
 @use "../../assets/scss/variables" as *;
+@use "../../assets/scss/mixins";
 
 .about {
+  @include mixins.sectionSetup;
+
   position: relative;
-  width: 100%;
-  min-height: 100vh;
 
   display: flex;
   flex-direction: column;

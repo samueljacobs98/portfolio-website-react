@@ -4,6 +4,7 @@ import moon from "../../assets/svgs/moon.svg";
 import "./Projects.scss";
 import projectData from "../../assets/data/projectData";
 import { useEffect, useState } from "react";
+import Button from "../../components/Button/Button";
 
 const Projects = () => {
   const [windowIsBig, setWindowIsBig] = useState(window.innerWidth > 600);
@@ -74,14 +75,10 @@ const Projects = () => {
         <h3 className="projects__title">Featured Projects</h3>
         {cardListJSX}
         {toggle && !windowIsBig && (
-          <button className="projects__show-more" onClick={showMore}>
-            Show more...
-          </button>
+          <Button text={"Show more..."} onClick={showMore} />
         )}
         {!toggle && !windowIsBig && (
-          <button className="projects__show-more" onClick={showMore}>
-            Show less...
-          </button>
+          <Button text={"Show less..."} onClick={showMore} />
         )}
       </main>
       <img className="projects__moon" src={moon} alt="the moon" />

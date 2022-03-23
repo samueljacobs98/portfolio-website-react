@@ -1,4 +1,5 @@
 @use "../../../assets/scss/variables" as *;
+@use "../../../assets/scss/mixins";
 
 .hero {
   position: relative;
@@ -10,13 +11,9 @@
     font-size: $font-size;
   }
   &__earth {
-    position: absolute;
+    @include mixins.floatingAnimation;
     bottom: -2ch;
     right: -0.5ch;
-    animation-name: floating;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
   }
 }
 
@@ -33,29 +30,5 @@
       bottom: 1ch;
       animation-name: mob-floating;
     }
-  }
-}
-
-@keyframes floating {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(0, -20px);
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}
-
-@keyframes mob-floating {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(0, -10px);
-  }
-  100% {
-    transform: translate(0, 0);
   }
 }

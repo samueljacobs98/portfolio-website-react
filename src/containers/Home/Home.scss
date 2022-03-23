@@ -1,8 +1,8 @@
 @use "../../assets/scss/variables" as *;
+@use "../../assets/scss/mixins";
 
 .home {
-  width: 100%;
-  min-height: 100vh;
+  @include mixins.sectionSetup;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,15 +24,7 @@
 
     > a,
     > a:visited {
-      text-decoration: none;
-      color: $colour-background;
-      background-color: $colour-orange;
-      padding: $padding-button;
-      border-radius: $padding-button;
-      box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
-    }
-    > a:hover {
-      cursor: pointer;
+      @include mixins.buttonStyling;
     }
   }
 }

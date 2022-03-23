@@ -1,0 +1,7 @@
+@use "../../assets/scss/variables" as *;
+@use "../../assets/scss/mixins";
+
+.button {
+  @include mixins.buttonStyling //   text-decoration: none;
+;
+}

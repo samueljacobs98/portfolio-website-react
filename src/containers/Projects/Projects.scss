@@ -1,9 +1,9 @@
 @use "../../assets/scss/variables" as *;
+@use "../../assets/scss/mixins";
 
 .projects {
+  @include mixins.sectionSetup;
   position: relative;
-  width: 100%;
-  min-height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -19,29 +19,12 @@
       grid-column: 1 / -1;
       text-align: center;
     }
-
-    .projects__show-more {
-      text-decoration: none;
-      color: $colour-background;
-      background-color: $colour-orange;
-      padding: $padding-button;
-      border-radius: $padding-button;
-      box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
-      border: none;
-    }
-    .projects__show-more:hover {
-      cursor: pointer;
-    }
   }
   &__moon {
-    position: absolute;
-    z-index: -1;
+    @include mixins.floatingAnimation;
     top: 4%;
     left: 65%;
-    animation-name: floating;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    z-index: -1;
   }
 }
 
@@ -62,17 +45,5 @@
       grid-template-columns: 1fr;
       justify-items: center;
     }
-  }
-}
-
-@keyframes moon-floating {
-  0% {
-    transform: translate(52vw, 5vw);
-  }
-  50% {
-    transform: translate(52vw, calc(5vw - 20px));
-  }
-  100% {
-    transform: translate(52vw, 5vw);
   }
 }
