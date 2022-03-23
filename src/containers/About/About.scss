@@ -30,7 +30,7 @@
   }
 
   &__sun {
-    position: absolute;
+    @include mixins.floatingAnimation;
     left: 0;
     top: -50%;
     z-index: -1;

@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectLinks from "../ProjectLinks/ProjectLinks";
 
 import "./Project.scss";
