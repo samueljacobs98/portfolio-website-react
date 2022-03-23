@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio-website-react/static/css/main.2aeae21a.css",
+    "main.css": "/portfolio-website-react/static/css/main.c0d0dc5f.css",
     "main.js": "/portfolio-website-react/static/js/main.538323a5.js",
     "static/js/787.0b679274.chunk.js": "/portfolio-website-react/static/js/787.0b679274.chunk.js",
     "static/media/ticketscreenshot.png": "/portfolio-website-react/static/media/ticketscreenshot.787aff795a78272692b9.png",
@@ -25,12 +25,12 @@
     "static/media/moon.svg": "/portfolio-website-react/static/media/moon.958e3c2a2d28d333e6fc5d300c68be38.svg",
     "static/media/hamburger.svg": "/portfolio-website-react/static/media/hamburger.130952224907f6679ddb13682e645ed4.svg",
     "static/media/link-lines.svg": "/portfolio-website-react/static/media/link-lines.f47b34909512fc1fae8f40d4fe967ef4.svg",
-    "main.2aeae21a.css.map": "/portfolio-website-react/static/css/main.2aeae21a.css.map",
+    "main.c0d0dc5f.css.map": "/portfolio-website-react/static/css/main.c0d0dc5f.css.map",
     "main.538323a5.js.map": "/portfolio-website-react/static/js/main.538323a5.js.map",
     "787.0b679274.chunk.js.map": "/portfolio-website-react/static/js/787.0b679274.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2aeae21a.css",
+    "static/css/main.c0d0dc5f.css",
     "static/js/main.538323a5.js"
   ]
 }
