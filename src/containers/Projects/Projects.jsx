@@ -6,30 +6,39 @@ import projectData from "../../assets/data/projectData";
 import { useEffect, useState } from "react";
 
 const Projects = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowIsBig, setWindowIsBig] = useState(window.innerWidth > 600);
   const [projects, setProjects] = useState([...projectData]);
   const [toggle, setToggle] = useState(false);
   const [projectToShow, setProjectToShow] = useState(0);
 
   const handleResize = () => {
-    setWindowWidth(window.innerWidth);
+    setWindowIsBig(window.innerWidth > 600);
   };
 
   window.addEventListener("resize", handleResize);
 
   useEffect(() => {
     const projectsToShow =
-      windowWidth < 600 && toggle
-        ? [...projectData].slice(0, 3)
-        : [...projectData];
+      !windowIsBig && toggle ? [...projectData].slice(0, 3) : [...projectData];
     setProjects([...projectsToShow]);
-    setToggle(windowWidth > 600 ? false : true);
-  }, [windowWidth]);
+  }, [windowIsBig, toggle]);
+
+  useEffect(() => {
+    setToggle(!windowIsBig);
+  }, [windowIsBig]);
 
   useEffect(() => {
     toggle
       ? setProjects([...projectData].slice(0, 3))
       : setProjects([...projectData]);
+  }, [toggle]);
+
+  useEffect(() => {
+    if (!windowIsBig && projectToShow > 2) setProjectToShow(0);
+  }, [windowIsBig]);
+
+  useEffect(() => {
+    if (toggle && projectToShow > 2) setProjectToShow(0);
   }, [toggle]);
 
   const showMore = () => {
@@ -64,12 +73,12 @@ const Projects = () => {
       <main className="projects__container">
         <h3 className="projects__title">Featured Projects</h3>
         {cardListJSX}
-        {toggle && windowWidth < 600 && (
+        {toggle && !windowIsBig && (
           <button className="projects__show-more" onClick={showMore}>
             Show more...
           </button>
         )}
-        {!toggle && windowWidth < 600 && (
+        {!toggle && !windowIsBig && (
           <button className="projects__show-more" onClick={showMore}>
             Show less...
           </button>

@@ -3,7 +3,8 @@ import "./Card.scss";
 const Card = ({ data, handleClick, index, projectToShow }) => {
   const { title, shortDesc, skills, id } = data;
 
-  let cardClassName = id === projectToShow ? "card card--active" : "card";
+  const isActive = id === projectToShow;
+  const cardClassName = isActive ? "card card--active" : "card";
 
   return (
     <div className={cardClassName} onClick={() => handleClick(index)}>
