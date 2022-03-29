@@ -3,7 +3,7 @@ import imgPunk from "../images/punkscreenshot.png";
 import imgTicket from "../images/ticketscreenshot.png";
 import imgCalc from "../images/calculatorscreenshot.png";
 import imgVocab from "../images/vocabscreenshot.png";
-import imgPort from "../images/portfolioscreenshot.png";
+import imgBgAnimation from "../images/bganimationscreenshot.png";
 
 const cardsData = [
   {
@@ -187,6 +187,32 @@ const cardsData = [
   },
   {
     id: 4,
+    title: "General BG Animation",
+    skills: ["HTML Canvas", "JavaScript", "HTML", "CSS"],
+    desc: [
+      {
+        id: 1,
+        text: "The purpose of this project was to really get to grips with HTML Canvas and explore the impact of different settings. Furthermore, it was about creating a basic template that could be quickly rewritten and modified in the future to create dramatic variations with little altering of code.",
+      },
+      {
+        id: 2,
+        text: "Simple DOM manipulation was used to alter the animation properties via the browser.",
+      },
+      {
+        id: 3,
+        text: "An OOP approach was used to create an array of circles with a variety of properties such as location, size, and velocity. A bounce method was integrated to ensure that the circles are contained within the screen.",
+      },
+    ],
+    shortDesc: "Website where users to modify the background.",
+    img: imgBgAnimation,
+    links: {
+      github: "https://github.com/samueljacobs98/general-background-animation",
+      deployed:
+        "https://samueljacobs98.github.io/general-background-animation/",
+    },
+  },
+  {
+    id: 5,
     title: "MyVocab",
     skills: ["JavaScript", "API Integration", "SCSS", "HTML"],
     desc: [
@@ -200,23 +226,6 @@ const cardsData = [
     links: {
       github: "https://github.com/samueljacobs98/what-this-mean",
       deployed: "https://samueljacobs98.github.io/what-this-mean/",
-    },
-  },
-  {
-    id: 5,
-    title: "Portfolio Website",
-    skills: ["React", "HTML", "SCSS", "CSS"],
-    desc: [
-      {
-        id: 1,
-        text: "Having created a portfolio website in HTML and CSS as the first project on the Nology course, the site was recreated in React.",
-      },
-    ],
-    shortDesc: "Created a SPA to showcase work.",
-    img: imgPort,
-    links: {
-      github: "https://github.com/samueljacobs98/portfolio-website-react",
-      deployed: "https://samueljacobs98.github.io/portfolio-website-react/",
     },
   },
 ];
