@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio-website-react/static/css/main.c0d0dc5f.css",
-    "main.js": "/portfolio-website-react/static/js/main.538323a5.js",
+    "main.js": "/portfolio-website-react/static/js/main.4c00f096.js",
     "static/js/787.0b679274.chunk.js": "/portfolio-website-react/static/js/787.0b679274.chunk.js",
     "static/media/ticketscreenshot.png": "/portfolio-website-react/static/media/ticketscreenshot.787aff795a78272692b9.png",
     "static/media/vocabscreenshot.png": "/portfolio-website-react/static/media/vocabscreenshot.a0787b7ab41e7a95d36d.png",
-    "static/media/portfolioscreenshot.png": "/portfolio-website-react/static/media/portfolioscreenshot.14490e8b826d4b60b8d0.png",
+    "static/media/bganimationscreenshot.png": "/portfolio-website-react/static/media/bganimationscreenshot.3606b3a4a7db33c05b1d.png",
     "static/media/profile-img.jpg": "/portfolio-website-react/static/media/profile-img.e4d2f34359eb958d3a61.jpg",
     "static/media/calculatorscreenshot.png": "/portfolio-website-react/static/media/calculatorscreenshot.41d9e5185be55768b6c3.png",
     "static/media/punkscreenshot.png": "/portfolio-website-react/static/media/punkscreenshot.c70cc3939bda0c44197e.png",
@@ -26,11 +26,11 @@
     "static/media/hamburger.svg": "/portfolio-website-react/static/media/hamburger.130952224907f6679ddb13682e645ed4.svg",
     "static/media/link-lines.svg": "/portfolio-website-react/static/media/link-lines.f47b34909512fc1fae8f40d4fe967ef4.svg",
     "main.c0d0dc5f.css.map": "/portfolio-website-react/static/css/main.c0d0dc5f.css.map",
-    "main.538323a5.js.map": "/portfolio-website-react/static/js/main.538323a5.js.map",
+    "main.4c00f096.js.map": "/portfolio-website-react/static/js/main.4c00f096.js.map",
     "787.0b679274.chunk.js.map": "/portfolio-website-react/static/js/787.0b679274.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0d0dc5f.css",
-    "static/js/main.538323a5.js"
+    "static/js/main.4c00f096.js"
   ]
 }
