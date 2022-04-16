@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div>
+  <div
+    class="about"
+    id="about"
+  >
+    <h2
+      class="about__item-title"
+    >
+      About Me
+    </h2>
+    <div
+      class="about__container"
+    >
+      <img
+        alt=""
+        class="about__img"
+        src="profile-img.jpg"
+      />
+      <div
+        class="about__summary-container"
+      >
+        <p
+          class="about__item-text"
+        >
+          I am a first-class mechanical engineering graduate and junior full-stack engineer. I chose to study mechanical engineering because I love solving problems, and have gained both technical skills and transferable skills. My degree developed my problem-solving abilities for problems at any scale, in a team and independently.
+        </p>
+        <br />
+        <p
+          class="about__item-text"
+        >
+          I chose to pursue a career in tech as it is an exciting and rewarding combination of problem solving and design. My focus is delivering solutions from effective critical and lateral thinking, using data driven insights to carve human-centred solutions.
+        </p>
+      </div>
+    </div>
+    <img
+      alt="the sun"
+      class="about__sun"
+      src="sun-side.svg"
+    />
+  </div>
+</div>
+`;

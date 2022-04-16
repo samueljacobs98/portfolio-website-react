@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div>
+  <a
+    class="mobile-back-to-top"
+    href="#home"
+  >
+    <img
+      alt="back-to-top"
+      src="to-top.svg"
+    />
+  </a>
+  <a
+    class="back-to-top"
+    href="#home"
+  >
+    Back to top
+  </a>
+</div>
+`;

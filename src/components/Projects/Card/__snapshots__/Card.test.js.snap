@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot for active card 1`] = `
+<div>
+  <div
+    class="card card--active"
+  >
+    <p
+      class="card__title"
+    />
+    <p
+      class="card__brief"
+    />
+    <div
+      class="card__line"
+    />
+    <div
+      class="card__skills"
+    >
+      <div
+        class="card__skills-left"
+      >
+        <p
+          class="skill skill1"
+        />
+        <p
+          class="skill skill2"
+        />
+      </div>
+      <div
+        class="card__skills-right"
+      >
+        <p
+          class="skill skill3"
+        />
+        <p
+          class="skill skill4"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should match snapshot for inactive card 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <p
+      class="card__title"
+    />
+    <p
+      class="card__brief"
+    />
+    <div
+      class="card__line"
+    />
+    <div
+      class="card__skills"
+    >
+      <div
+        class="card__skills-left"
+      >
+        <p
+          class="skill skill1"
+        />
+        <p
+          class="skill skill2"
+        />
+      </div>
+      <div
+        class="card__skills-right"
+      >
+        <p
+          class="skill skill3"
+        />
+        <p
+          class="skill skill4"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

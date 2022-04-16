@@ -1,7 +1,7 @@
 import { render } from "@testing-library/react";
-import App from "./App";
+import Hero from "./Hero";
 
 test("should match snapshot", () => {
-  const { container } = render(<App />);
+  const { container } = render(<Hero />);
   expect(container).toMatchSnapshot();
 });

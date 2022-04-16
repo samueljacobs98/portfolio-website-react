@@ -1,7 +1,7 @@
 import { render } from "@testing-library/react";
-import App from "./App";
+import BackToTop from "./BackToTop";
 
 test("should match snapshot", () => {
-  const { container } = render(<App />);
+  const { container } = render(<BackToTop />);
   expect(container).toMatchSnapshot();
 });

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div>
+  <div
+    class="links"
+  >
+    <a
+      href="https://www.linkedin.com/in/samuel-j-66a84ba2/"
+    >
+      <img
+        alt="link to linked in"
+        class="links__icon"
+        src="linkedin-icon.svg"
+      />
+    </a>
+    <a
+      href="https://github.com/samueljacobs98"
+    >
+      <img
+        alt="link to github"
+        class="links__icon"
+        src="github-icon.svg"
+      />
+    </a>
+    <a
+      href="https://www.instagram.com/_samuel.jacobs_"
+    >
+      <img
+        alt="link to instagram"
+        class="links__icon"
+        src="instagram-icon.svg"
+      />
+    </a>
+    <img
+      alt="lines leading to social links"
+      class="links__lines"
+      src="link-lines.svg"
+    />
+  </div>
+</div>
+`;

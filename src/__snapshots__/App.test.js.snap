@@ -1,0 +1,646 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div>
+  <div
+    class="header"
+  >
+    <img
+      alt="Samuel Jacobs Logo"
+      class="logo__svg"
+      src="logo.svg"
+    />
+    <ul
+      class="navbar"
+    >
+      <li>
+        <a
+          class="navbar__link"
+          href="#projects"
+        >
+          Projects
+        </a>
+      </li>
+      <li>
+        <a
+          class="navbar__link"
+          href="#about"
+        >
+          About
+        </a>
+      </li>
+      <li>
+        <a
+          class="navbar__link"
+          href="#contact"
+        >
+          Contact
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    class="home"
+    id="home"
+  >
+    <img
+      alt="Sun"
+      class="home__sun"
+      src="sun.svg"
+    />
+    <div
+      class="hero"
+    >
+      <h1
+        class="hero__heading"
+      >
+        Hi, I'm Samuel
+      </h1>
+      <p
+        class="hero__text"
+      >
+        a software engineer based
+        <br />
+        in London, England
+      </p>
+      <img
+        alt="planet earth"
+        class="hero__earth"
+        src="earth.svg"
+      />
+    </div>
+    <p
+      class="home__link"
+    >
+      Click 
+      <a
+        href="#projects"
+      >
+        here
+      </a>
+       to see some projects
+    </p>
+  </div>
+  <div
+    class="projects"
+    id="projects"
+  >
+    <section
+      class="project"
+    >
+      <h3
+        class="project__heading"
+      >
+        2048 Game
+      </h3>
+      <img
+        alt="2048 Game"
+        class="project__img"
+        src="2048screenshot.png"
+      />
+      <div
+        class="project__text"
+      >
+        <p
+          class="project__para"
+        >
+          The purpose of this project was to create a game using skills in HTML, CSS/SCSS, and JavaScript.
+        </p>
+        <br />
+        <p
+          class="project__para"
+        >
+          The basic UI was based on that of the original 2048 game, aiming to replicate the style of the original game.
+        </p>
+        <br />
+        <p
+          class="project__para"
+        >
+          Using media queries, when on a mobile or tablet with no proper mouse cursor available, arrow buttons appear on the interface in order to allow user interaction, even without a keyboard.
+        </p>
+        <br />
+        <p
+          class="project__para"
+        >
+          Throughout the project, GitHub was used for version control.
+        </p>
+        <br />
+        <p
+          class="project__para"
+        >
+          The approach to the JavaScript was to use DOM interaction to manipulate a 2D array in the JavaScript. Changes in the JavaScript would be fed back to the DOM for visual representation in the UI.
+        </p>
+      </div>
+      <div
+        class="project__skills"
+      >
+        <p
+          class="project__skill"
+        >
+          JavaScript
+        </p>
+        <p
+          class="project__skill"
+        >
+          HTML
+        </p>
+        <p
+          class="project__skill"
+        >
+          CSS
+        </p>
+        <p
+          class="project__skill"
+        >
+          Figma
+        </p>
+      </div>
+      <div
+        class="project-links"
+      >
+        <a
+          class="project-links__container"
+          href="https://github.com/samueljacobs98/game-project"
+        >
+          <p
+            class="project-links__text"
+          >
+            Code:
+          </p>
+          <img
+            alt=""
+            class="project-links__link"
+            src="github.svg"
+          />
+        </a>
+        <a
+          class="project-links__container"
+          href="https://samueljacobs98.github.io/game-project/"
+        >
+          <p
+            class="project-links__text"
+          >
+            Preview:
+          </p>
+          <img
+            alt=""
+            class="project-links__link"
+            src="preview.svg"
+          />
+        </a>
+      </div>
+    </section>
+    <main
+      class="projects__container"
+    >
+      <h3
+        class="projects__title"
+      >
+        Featured Projects
+      </h3>
+      <div
+        class="card card--active"
+      >
+        <p
+          class="card__title"
+        >
+          2048 Game
+        </p>
+        <p
+          class="card__brief"
+        >
+          A browser-based game using modern JavaScript programming techniques and DOM manipulation.
+        </p>
+        <div
+          class="card__line"
+        />
+        <div
+          class="card__skills"
+        >
+          <div
+            class="card__skills-left"
+          >
+            <p
+              class="skill skill1"
+            >
+              JavaScript
+            </p>
+            <p
+              class="skill skill2"
+            >
+              HTML
+            </p>
+          </div>
+          <div
+            class="card__skills-right"
+          >
+            <p
+              class="skill skill3"
+            >
+              CSS
+            </p>
+            <p
+              class="skill skill4"
+            >
+              Figma
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <p
+          class="card__title"
+        >
+          Punk API
+        </p>
+        <p
+          class="card__brief"
+        >
+          A React application that pulls data from an external public API and presents it in a dashboard.
+        </p>
+        <div
+          class="card__line"
+        />
+        <div
+          class="card__skills"
+        >
+          <div
+            class="card__skills-left"
+          >
+            <p
+              class="skill skill1"
+            >
+              Async Coding
+            </p>
+            <p
+              class="skill skill2"
+            >
+              API Integration
+            </p>
+          </div>
+          <div
+            class="card__skills-right"
+          >
+            <p
+              class="skill skill3"
+            >
+              React
+            </p>
+            <p
+              class="skill skill4"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <p
+          class="card__title"
+        >
+          Ticket Tracker
+        </p>
+        <p
+          class="card__brief"
+        >
+          A React app that displays team members' remaining tickets.
+        </p>
+        <div
+          class="card__line"
+        />
+        <div
+          class="card__skills"
+        >
+          <div
+            class="card__skills-left"
+          >
+            <p
+              class="skill skill1"
+            >
+              React
+            </p>
+            <p
+              class="skill skill2"
+            >
+              State-management
+            </p>
+          </div>
+          <div
+            class="card__skills-right"
+          >
+            <p
+              class="skill skill3"
+            >
+              HTML Canvas
+            </p>
+            <p
+              class="skill skill4"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <p
+          class="card__title"
+        >
+          Calculator
+        </p>
+        <p
+          class="card__brief"
+        >
+          A browser-based calculator capable of basic and advanced calculations.
+        </p>
+        <div
+          class="card__line"
+        />
+        <div
+          class="card__skills"
+        >
+          <div
+            class="card__skills-left"
+          >
+            <p
+              class="skill skill1"
+            >
+              HTML
+            </p>
+            <p
+              class="skill skill2"
+            >
+              CSS
+            </p>
+          </div>
+          <div
+            class="card__skills-right"
+          >
+            <p
+              class="skill skill3"
+            >
+              JavaScript
+            </p>
+            <p
+              class="skill skill4"
+            >
+              Figma
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <p
+          class="card__title"
+        >
+          General BG Animation
+        </p>
+        <p
+          class="card__brief"
+        >
+          Website where users to modify the background.
+        </p>
+        <div
+          class="card__line"
+        />
+        <div
+          class="card__skills"
+        >
+          <div
+            class="card__skills-left"
+          >
+            <p
+              class="skill skill1"
+            >
+              HTML Canvas
+            </p>
+            <p
+              class="skill skill2"
+            >
+              JavaScript
+            </p>
+          </div>
+          <div
+            class="card__skills-right"
+          >
+            <p
+              class="skill skill3"
+            >
+              HTML
+            </p>
+            <p
+              class="skill skill4"
+            >
+              CSS
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card"
+      >
+        <p
+          class="card__title"
+        >
+          MyVocab
+        </p>
+        <p
+          class="card__brief"
+        >
+          A simple DOM manipulation project using API integration.
+        </p>
+        <div
+          class="card__line"
+        />
+        <div
+          class="card__skills"
+        >
+          <div
+            class="card__skills-left"
+          >
+            <p
+              class="skill skill1"
+            >
+              JavaScript
+            </p>
+            <p
+              class="skill skill2"
+            >
+              API Integration
+            </p>
+          </div>
+          <div
+            class="card__skills-right"
+          >
+            <p
+              class="skill skill3"
+            >
+              SCSS
+            </p>
+            <p
+              class="skill skill4"
+            >
+              HTML
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <img
+      alt="the moon"
+      class="projects__moon"
+      src="moon.svg"
+    />
+  </div>
+  <div
+    class="about"
+    id="about"
+  >
+    <h2
+      class="about__item-title"
+    >
+      About Me
+    </h2>
+    <div
+      class="about__container"
+    >
+      <img
+        alt=""
+        class="about__img"
+        src="profile-img.jpg"
+      />
+      <div
+        class="about__summary-container"
+      >
+        <p
+          class="about__item-text"
+        >
+          I am a first-class mechanical engineering graduate and junior full-stack engineer. I chose to study mechanical engineering because I love solving problems, and have gained both technical skills and transferable skills. My degree developed my problem-solving abilities for problems at any scale, in a team and independently.
+        </p>
+        <br />
+        <p
+          class="about__item-text"
+        >
+          I chose to pursue a career in tech as it is an exciting and rewarding combination of problem solving and design. My focus is delivering solutions from effective critical and lateral thinking, using data driven insights to carve human-centred solutions.
+        </p>
+      </div>
+    </div>
+    <img
+      alt="the sun"
+      class="about__sun"
+      src="sun-side.svg"
+    />
+  </div>
+  <div
+    class="contact"
+    id="contact"
+  >
+    <h2
+      class="contact__title"
+    >
+      Contact Me
+    </h2>
+    <a
+      class="contact__anchor"
+      href="mailto:sammyjacobscontact@gmail.com"
+    >
+      Get in touch!
+    </a>
+    <img
+      alt=""
+      class="contact__earth"
+      src="earth.svg"
+    />
+    <div
+      class="links"
+    >
+      <a
+        href="https://www.linkedin.com/in/samuel-j-66a84ba2/"
+      >
+        <img
+          alt="link to linked in"
+          class="links__icon"
+          src="linkedin-icon.svg"
+        />
+      </a>
+      <a
+        href="https://github.com/samueljacobs98"
+      >
+        <img
+          alt="link to github"
+          class="links__icon"
+          src="github-icon.svg"
+        />
+      </a>
+      <a
+        href="https://www.instagram.com/_samuel.jacobs_"
+      >
+        <img
+          alt="link to instagram"
+          class="links__icon"
+          src="instagram-icon.svg"
+        />
+      </a>
+      <img
+        alt="lines leading to social links"
+        class="links__lines"
+        src="link-lines.svg"
+      />
+    </div>
+  </div>
+  <a
+    class="mobile-back-to-top"
+    href="#home"
+  >
+    <img
+      alt="back-to-top"
+      src="to-top.svg"
+    />
+  </a>
+  <a
+    class="back-to-top"
+    href="#home"
+  >
+    Back to top
+  </a>
+  <div
+    class="links"
+  >
+    <a
+      href="https://www.linkedin.com/in/samuel-j-66a84ba2/"
+    >
+      <img
+        alt="link to linked in"
+        class="links__icon"
+        src="linkedin-icon.svg"
+      />
+    </a>
+    <a
+      href="https://github.com/samueljacobs98"
+    >
+      <img
+        alt="link to github"
+        class="links__icon"
+        src="github-icon.svg"
+      />
+    </a>
+    <a
+      href="https://www.instagram.com/_samuel.jacobs_"
+    >
+      <img
+        alt="link to instagram"
+        class="links__icon"
+        src="instagram-icon.svg"
+      />
+    </a>
+    <img
+      alt="lines leading to social links"
+      class="links__lines"
+      src="link-lines.svg"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div>
+  <div
+    class="project-links"
+  >
+    <a
+      class="project-links__container"
+      href=""
+    >
+      <p
+        class="project-links__text"
+      >
+        Code:
+      </p>
+      <img
+        alt=""
+        class="project-links__link"
+        src="github.svg"
+      />
+    </a>
+    <a
+      class="project-links__container"
+      href=""
+    >
+      <p
+        class="project-links__text"
+      >
+        Preview:
+      </p>
+      <img
+        alt=""
+        class="project-links__link"
+        src="preview.svg"
+      />
+    </a>
+  </div>
+</div>
+`;

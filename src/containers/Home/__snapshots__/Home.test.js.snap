@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div>
+  <div
+    class="home"
+    id="home"
+  >
+    <img
+      alt="Sun"
+      class="home__sun"
+      src="sun.svg"
+    />
+    <div
+      class="hero"
+    >
+      <h1
+        class="hero__heading"
+      >
+        Hi, I'm Samuel
+      </h1>
+      <p
+        class="hero__text"
+      >
+        a software engineer based
+        <br />
+        in London, England
+      </p>
+      <img
+        alt="planet earth"
+        class="hero__earth"
+        src="earth.svg"
+      />
+    </div>
+    <p
+      class="home__link"
+    >
+      Click 
+      <a
+        href="#projects"
+      >
+        here
+      </a>
+       to see some projects
+    </p>
+  </div>
+</div>
+`;
