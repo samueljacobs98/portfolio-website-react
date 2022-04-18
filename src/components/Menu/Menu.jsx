@@ -15,12 +15,9 @@ const Menu = () => {
   return (
     <>
       {!showMenu && (
-        <img
-          className="hamburger"
-          src={hamburger}
-          alt="Open menu"
-          onClick={toggleMenu}
-        />
+        <button onClick={toggleMenu}>
+          <img className="hamburger" src={hamburger} alt="Open menu" />
+        </button>
       )}
       {showMenu && (
         <>

@@ -2,10 +2,12 @@
 
 exports[`should match snapshot 1`] = `
 <div>
-  <img
-    alt="Open menu"
-    class="hamburger"
-    src="hamburger.svg"
-  />
+  <button>
+    <img
+      alt="Open menu"
+      class="hamburger"
+      src="hamburger.svg"
+    />
+  </button>
 </div>
 `;
