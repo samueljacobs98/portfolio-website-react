@@ -2,8 +2,9 @@
 
 exports[`should match snapshot for active card 1`] = `
 <div>
-  <div
+  <a
     class="card card--active"
+    href="#project"
   >
     <p
       class="card__title"
@@ -38,14 +39,15 @@ exports[`should match snapshot for active card 1`] = `
         />
       </div>
     </div>
-  </div>
+  </a>
 </div>
 `;
 
 exports[`should match snapshot for inactive card 1`] = `
 <div>
-  <div
+  <a
     class="card"
+    href="#project"
   >
     <p
       class="card__title"
@@ -80,6 +82,6 @@ exports[`should match snapshot for inactive card 1`] = `
         />
       </div>
     </div>
-  </div>
+  </a>
 </div>
 `;

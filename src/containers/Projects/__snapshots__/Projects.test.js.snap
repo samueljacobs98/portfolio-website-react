@@ -8,16 +8,17 @@ exports[`should match snapshot 1`] = `
   >
     <section
       class="project"
+      id="project"
     >
       <h3
         class="project__heading"
       >
-        2048 Game
+        JAMstack and CMS Blog
       </h3>
       <img
-        alt="2048 Game"
+        alt="JAMstack and CMS Blog"
         class="project__img"
-        src="2048screenshot.png"
+        src="blogscreenshot.png"
       />
       <div
         class="project__text"
@@ -25,31 +26,19 @@ exports[`should match snapshot 1`] = `
         <p
           class="project__para"
         >
-          The purpose of this project was to create a game using skills in HTML, CSS/SCSS, and JavaScript.
+          The goal of this project was to create a fast and secure blog using JAMStack. Eleventy was used to create a static site, using Netlify CMS to manage adding, removing, and editing blog posts.
         </p>
         <br />
         <p
           class="project__para"
         >
-          The basic UI was based on that of the original 2048 game, aiming to replicate the style of the original game.
+          A fundamental goal of this website was to create a page that utilised standardised components as much as possible. In doing so, nunjucks and eleventy could be used to integrate multiple components on a range of pages. Standardised components include the base file, header, footer, and article-snippet.
         </p>
         <br />
         <p
           class="project__para"
         >
-          Using media queries, when on a mobile or tablet with no proper mouse cursor available, arrow buttons appear on the interface in order to allow user interaction, even without a keyboard.
-        </p>
-        <br />
-        <p
-          class="project__para"
-        >
-          Throughout the project, GitHub was used for version control.
-        </p>
-        <br />
-        <p
-          class="project__para"
-        >
-          The approach to the JavaScript was to use DOM interaction to manipulate a 2D array in the JavaScript. Changes in the JavaScript would be fed back to the DOM for visual representation in the UI.
+          Using the Netlify CMS, and by implementing an admin file, a secure admin section of the site was added, enabling any designated user to access the admin interface, thus enabling them to create new, edit existing, and delete old posts on the blog.
         </p>
       </div>
       <div
@@ -58,22 +47,22 @@ exports[`should match snapshot 1`] = `
         <p
           class="project__skill"
         >
-          JavaScript
+          HTML/CSS
         </p>
         <p
           class="project__skill"
         >
-          HTML
+          Eleventy
         </p>
         <p
           class="project__skill"
         >
-          CSS
+          Netlify CMS
         </p>
         <p
           class="project__skill"
         >
-          Figma
+          Nunjucks
         </p>
       </div>
       <div
@@ -81,7 +70,9 @@ exports[`should match snapshot 1`] = `
       >
         <a
           class="project-links__container"
-          href="https://github.com/samueljacobs98/game-project"
+          href="https://github.com/samueljacobs98/jamstack-blog"
+          rel="noreferrer"
+          target="_blank"
         >
           <p
             class="project-links__text"
@@ -96,7 +87,9 @@ exports[`should match snapshot 1`] = `
         </a>
         <a
           class="project-links__container"
-          href="https://samueljacobs98.github.io/game-project/"
+          href="https://sage-chaja-b1e942.netlify.app/"
+          rel="noreferrer"
+          target="_blank"
         >
           <p
             class="project-links__text"
@@ -110,6 +103,20 @@ exports[`should match snapshot 1`] = `
           />
         </a>
       </div>
+      <div
+        class="project__update"
+      >
+        <button
+          class="button"
+        >
+          Previous Project
+        </button>
+        <button
+          class="button"
+        >
+          Next Project
+        </button>
+      </div>
     </section>
     <main
       class="projects__container"
@@ -119,8 +126,109 @@ exports[`should match snapshot 1`] = `
       >
         Featured Projects
       </h3>
-      <div
+      <a
         class="card card--active"
+        href="#project"
+      >
+        <p
+          class="card__title"
+        >
+          JAMstack and CMS Blog
+        </p>
+        <p
+          class="card__brief"
+        >
+          A fast and secure blog with Eleventy and Netlify CMS
+        </p>
+        <div
+          class="card__line"
+        />
+        <div
+          class="card__skills"
+        >
+          <div
+            class="card__skills-left"
+          >
+            <p
+              class="skill skill1"
+            >
+              HTML/CSS
+            </p>
+            <p
+              class="skill skill2"
+            >
+              Eleventy
+            </p>
+          </div>
+          <div
+            class="card__skills-right"
+          >
+            <p
+              class="skill skill3"
+            >
+              Netlify CMS
+            </p>
+            <p
+              class="skill skill4"
+            >
+              Nunjucks
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        class="card"
+        href="#project"
+      >
+        <p
+          class="card__title"
+        >
+          GCP Hosted Pokemon API
+        </p>
+        <p
+          class="card__brief"
+        >
+          Created an API using Spring Boot and Java with a MySQL database.
+        </p>
+        <div
+          class="card__line"
+        />
+        <div
+          class="card__skills"
+        >
+          <div
+            class="card__skills-left"
+          >
+            <p
+              class="skill skill1"
+            >
+              Google Cloud
+            </p>
+            <p
+              class="skill skill2"
+            >
+              Spring Boot
+            </p>
+          </div>
+          <div
+            class="card__skills-right"
+          >
+            <p
+              class="skill skill3"
+            >
+              Java
+            </p>
+            <p
+              class="skill skill4"
+            >
+              MySQL
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        class="card"
+        href="#project"
       >
         <p
           class="card__title"
@@ -167,152 +275,10 @@ exports[`should match snapshot 1`] = `
             </p>
           </div>
         </div>
-      </div>
-      <div
+      </a>
+      <a
         class="card"
-      >
-        <p
-          class="card__title"
-        >
-          Punk API
-        </p>
-        <p
-          class="card__brief"
-        >
-          A React application that pulls data from an external public API and presents it in a dashboard.
-        </p>
-        <div
-          class="card__line"
-        />
-        <div
-          class="card__skills"
-        >
-          <div
-            class="card__skills-left"
-          >
-            <p
-              class="skill skill1"
-            >
-              Async Coding
-            </p>
-            <p
-              class="skill skill2"
-            >
-              API Integration
-            </p>
-          </div>
-          <div
-            class="card__skills-right"
-          >
-            <p
-              class="skill skill3"
-            >
-              React
-            </p>
-            <p
-              class="skill skill4"
-            />
-          </div>
-        </div>
-      </div>
-      <div
-        class="card"
-      >
-        <p
-          class="card__title"
-        >
-          Ticket Tracker
-        </p>
-        <p
-          class="card__brief"
-        >
-          A React app that displays team members' remaining tickets.
-        </p>
-        <div
-          class="card__line"
-        />
-        <div
-          class="card__skills"
-        >
-          <div
-            class="card__skills-left"
-          >
-            <p
-              class="skill skill1"
-            >
-              React
-            </p>
-            <p
-              class="skill skill2"
-            >
-              State-management
-            </p>
-          </div>
-          <div
-            class="card__skills-right"
-          >
-            <p
-              class="skill skill3"
-            >
-              HTML Canvas
-            </p>
-            <p
-              class="skill skill4"
-            />
-          </div>
-        </div>
-      </div>
-      <div
-        class="card"
-      >
-        <p
-          class="card__title"
-        >
-          Calculator
-        </p>
-        <p
-          class="card__brief"
-        >
-          A browser-based calculator capable of basic and advanced calculations.
-        </p>
-        <div
-          class="card__line"
-        />
-        <div
-          class="card__skills"
-        >
-          <div
-            class="card__skills-left"
-          >
-            <p
-              class="skill skill1"
-            >
-              HTML
-            </p>
-            <p
-              class="skill skill2"
-            >
-              CSS
-            </p>
-          </div>
-          <div
-            class="card__skills-right"
-          >
-            <p
-              class="skill skill3"
-            >
-              JavaScript
-            </p>
-            <p
-              class="skill skill4"
-            >
-              Figma
-            </p>
-          </div>
-        </div>
-      </div>
-      <div
-        class="card"
+        href="#project"
       >
         <p
           class="card__title"
@@ -359,9 +325,156 @@ exports[`should match snapshot 1`] = `
             </p>
           </div>
         </div>
-      </div>
-      <div
+      </a>
+      <a
         class="card"
+        href="#project"
+      >
+        <p
+          class="card__title"
+        >
+          Calculator
+        </p>
+        <p
+          class="card__brief"
+        >
+          A browser-based calculator capable of basic and advanced calculations.
+        </p>
+        <div
+          class="card__line"
+        />
+        <div
+          class="card__skills"
+        >
+          <div
+            class="card__skills-left"
+          >
+            <p
+              class="skill skill1"
+            >
+              HTML
+            </p>
+            <p
+              class="skill skill2"
+            >
+              CSS
+            </p>
+          </div>
+          <div
+            class="card__skills-right"
+          >
+            <p
+              class="skill skill3"
+            >
+              JavaScript
+            </p>
+            <p
+              class="skill skill4"
+            >
+              Figma
+            </p>
+          </div>
+        </div>
+      </a>
+      <a
+        class="card"
+        href="#project"
+      >
+        <p
+          class="card__title"
+        >
+          Ticket Tracker
+        </p>
+        <p
+          class="card__brief"
+        >
+          A React app that displays team members' remaining tickets.
+        </p>
+        <div
+          class="card__line"
+        />
+        <div
+          class="card__skills"
+        >
+          <div
+            class="card__skills-left"
+          >
+            <p
+              class="skill skill1"
+            >
+              React
+            </p>
+            <p
+              class="skill skill2"
+            >
+              State-management
+            </p>
+          </div>
+          <div
+            class="card__skills-right"
+          >
+            <p
+              class="skill skill3"
+            >
+              HTML Canvas
+            </p>
+            <p
+              class="skill skill4"
+            />
+          </div>
+        </div>
+      </a>
+      <a
+        class="card"
+        href="#project"
+      >
+        <p
+          class="card__title"
+        >
+          Punk API
+        </p>
+        <p
+          class="card__brief"
+        >
+          A React application that pulls data from an external public API and presents it in a dashboard.
+        </p>
+        <div
+          class="card__line"
+        />
+        <div
+          class="card__skills"
+        >
+          <div
+            class="card__skills-left"
+          >
+            <p
+              class="skill skill1"
+            >
+              Async Coding
+            </p>
+            <p
+              class="skill skill2"
+            >
+              API Integration
+            </p>
+          </div>
+          <div
+            class="card__skills-right"
+          >
+            <p
+              class="skill skill3"
+            >
+              React
+            </p>
+            <p
+              class="skill skill4"
+            />
+          </div>
+        </div>
+      </a>
+      <a
+        class="card"
+        href="#project"
       >
         <p
           class="card__title"
@@ -408,7 +521,7 @@ exports[`should match snapshot 1`] = `
             </p>
           </div>
         </div>
-      </div>
+      </a>
     </main>
     <img
       alt="the moon"

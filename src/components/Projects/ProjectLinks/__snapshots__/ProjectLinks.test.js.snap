@@ -8,6 +8,8 @@ exports[`should match snapshot 1`] = `
     <a
       class="project-links__container"
       href=""
+      rel="noreferrer"
+      target="_blank"
     >
       <p
         class="project-links__text"
@@ -18,21 +20,6 @@ exports[`should match snapshot 1`] = `
         alt=""
         class="project-links__link"
         src="github.svg"
-      />
-    </a>
-    <a
-      class="project-links__container"
-      href=""
-    >
-      <p
-        class="project-links__text"
-      >
-        Preview:
-      </p>
-      <img
-        alt=""
-        class="project-links__link"
-        src="preview.svg"
       />
     </a>
   </div>

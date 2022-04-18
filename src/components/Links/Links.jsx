@@ -7,13 +7,25 @@ import linkedIn from "../../assets/svgs/linkedin-icon.svg";
 const Links = () => {
   return (
     <div className="links">
-      <a href="https://www.linkedin.com/in/samuel-j-66a84ba2/">
+      <a
+        href="https://www.linkedin.com/in/samuel-j-66a84ba2/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="links__icon" src={linkedIn} alt="link to linked in" />
       </a>
-      <a href="https://github.com/samueljacobs98">
+      <a
+        href="https://github.com/samueljacobs98"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="links__icon" src={github} alt="link to github" />
       </a>
-      <a href="https://www.instagram.com/_samuel.jacobs_">
+      <a
+        href="https://www.instagram.com/_samuel.jacobs_"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img className="links__icon" src={insta} alt="link to instagram" />
       </a>
       <img

@@ -4,6 +4,7 @@ exports[`should match snapshot 1`] = `
 <div>
   <section
     class="project"
+    id="project"
   >
     <h3
       class="project__heading"
@@ -43,6 +44,8 @@ exports[`should match snapshot 1`] = `
       <a
         class="project-links__container"
         href=""
+        rel="noreferrer"
+        target="_blank"
       >
         <p
           class="project-links__text"
@@ -55,21 +58,20 @@ exports[`should match snapshot 1`] = `
           src="github.svg"
         />
       </a>
-      <a
-        class="project-links__container"
-        href=""
+    </div>
+    <div
+      class="project__update"
+    >
+      <button
+        class="button"
       >
-        <p
-          class="project-links__text"
-        >
-          Preview:
-        </p>
-        <img
-          alt=""
-          class="project-links__link"
-          src="preview.svg"
-        />
-      </a>
+        Previous Project
+      </button>
+      <button
+        class="button"
+      >
+        Next Project
+      </button>
     </div>
   </section>
 </div>

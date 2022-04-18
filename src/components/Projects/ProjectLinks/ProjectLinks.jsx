@@ -7,14 +7,27 @@ const ProjectLinks = ({ links }) => {
 
   return (
     <div className="project-links">
-      <a href={github} className="project-links__container">
+      <a
+        href={github}
+        target="_blank"
+        rel="noreferrer"
+        className="project-links__container"
+      >
         <p className="project-links__text">Code:</p>
         <img className="project-links__link" src={githubSvg} alt="" />
       </a>
-      <a href={deployed} className="project-links__container">
-        <p className="project-links__text">Preview:</p>
-        <img className="project-links__link" src={previewSvg} alt="" />
-      </a>
+
+      {deployed !== "" && (
+        <a
+          href={deployed}
+          target="_blank"
+          rel="noreferrer"
+          className="project-links__container"
+        >
+          <p className="project-links__text">Preview:</p>
+          <img className="project-links__link" src={previewSvg} alt="" />
+        </a>
+      )}
     </div>
   );
 };

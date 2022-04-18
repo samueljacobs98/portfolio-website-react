@@ -11,6 +11,9 @@ const Projects = () => {
   const [projects, setProjects] = useState([...projectData]);
   const [toggle, setToggle] = useState(false);
   const [projectToShow, setProjectToShow] = useState(0);
+  // console.log(projectData[0]);
+
+  // console.log(projects);
 
   const handleResize = () => {
     setWindowIsBig(window.innerWidth > 600);
@@ -50,6 +53,18 @@ const Projects = () => {
     setProjectToShow(id);
   };
 
+  const handleIncrement = () => {
+    projectToShow === projectData.length - 1
+      ? setProjectToShow(0)
+      : setProjectToShow(projectToShow + 1);
+  };
+
+  const handleDecrement = () => {
+    projectToShow === 0
+      ? setProjectToShow(projectData.length - 1)
+      : setProjectToShow(projectToShow - 1);
+  };
+
   const cardListJSX = (
     <>
       {projects.map((project, index) => {
@@ -66,19 +81,23 @@ const Projects = () => {
     </>
   );
 
-  const ProjectJSX = <Project data={projects[projectToShow]} />;
-
   return (
     <div className="projects" id="projects">
-      {ProjectJSX}
+      <Project
+        data={projects[projectToShow]}
+        handleIncrement={handleIncrement}
+        handleDecrement={handleDecrement}
+      />
       <main className="projects__container">
         <h3 className="projects__title">Featured Projects</h3>
         {cardListJSX}
-        {toggle && !windowIsBig && (
-          <Button text={"Show more..."} onClick={showMore} />
-        )}
-        {!toggle && !windowIsBig && (
-          <Button text={"Show less..."} onClick={showMore} />
+        {!windowIsBig && (
+          <div className="projects__button-container">
+            <Button
+              text={toggle ? "Show more..." : "Show less"}
+              onClick={showMore}
+            />
+          </div>
         )}
       </main>
       <img className="projects__moon" src={moon} alt="the moon" />

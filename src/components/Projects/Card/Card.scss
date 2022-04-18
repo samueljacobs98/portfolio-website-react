@@ -1,6 +1,8 @@
 @use "../../../assets/scss/variables" as *;
 
 .card {
+  color: $color-white;
+  text-decoration: none;
   background-color: $colour-background;
   width: $card-width;
   min-height: $card-min-height;

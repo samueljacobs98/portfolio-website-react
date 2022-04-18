@@ -27,6 +27,8 @@ exports[`should match snapshot 1`] = `
     >
       <a
         href="https://www.linkedin.com/in/samuel-j-66a84ba2/"
+        rel="noreferrer"
+        target="_blank"
       >
         <img
           alt="link to linked in"
@@ -36,6 +38,8 @@ exports[`should match snapshot 1`] = `
       </a>
       <a
         href="https://github.com/samueljacobs98"
+        rel="noreferrer"
+        target="_blank"
       >
         <img
           alt="link to github"
@@ -45,6 +49,8 @@ exports[`should match snapshot 1`] = `
       </a>
       <a
         href="https://www.instagram.com/_samuel.jacobs_"
+        rel="noreferrer"
+        target="_blank"
       >
         <img
           alt="link to instagram"

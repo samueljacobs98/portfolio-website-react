@@ -1,12 +1,17 @@
 @use "../../../assets/scss/variables" as *;
 
 .project {
+  align-self: center;
+  justify-self: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   max-width: $project-width;
-  max-height: 600px;
+  max-height: 700px;
+  &__heading {
+    margin-bottom: $gap-project;
+  }
   &__img {
     max-width: $project-width;
     width: 100%;
@@ -26,6 +31,13 @@
     justify-content: space-between;
     width: 100%;
     margin: $margin-project 0;
+  }
+
+  &__update {
+    padding-top: $gap-project;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
   }
 }
 

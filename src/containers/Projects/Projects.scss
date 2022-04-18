@@ -6,17 +6,18 @@
   position: relative;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   gap: $gap-project;
-  margin-top: $margin-project;
+  padding: $padding-projects;
 
   &__container {
-    max-width: 500px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, $card-width);
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: $gap-project;
     .projects__title {
-      grid-column: 1 / -1;
+      width: 100%;
       text-align: center;
     }
   }
@@ -25,6 +26,12 @@
     top: 4%;
     left: 65%;
     z-index: -1;
+  }
+
+  &__button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
 
