@@ -11,9 +11,6 @@ const Projects = () => {
   const [projects, setProjects] = useState([...projectData]);
   const [toggle, setToggle] = useState(false);
   const [projectToShow, setProjectToShow] = useState(0);
-  // console.log(projectData[0]);
-
-  // console.log(projects);
 
   const handleResize = () => {
     setWindowIsBig(window.innerWidth > 600);
