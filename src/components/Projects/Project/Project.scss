@@ -29,6 +29,8 @@
   &__skills {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
     width: 100%;
     margin: $margin-project 0;
   }

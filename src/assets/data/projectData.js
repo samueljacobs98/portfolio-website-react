@@ -2,10 +2,11 @@ import img2048 from "../images/2048screenshot.png";
 import imgPunk from "../images/punkscreenshot.png";
 import imgTicket from "../images/ticketscreenshot.png";
 import imgCalc from "../images/calculatorscreenshot.png";
-import imgVocab from "../images/vocabscreenshot.png";
 import imgBgAnimation from "../images/bganimationscreenshot.png";
 import imgBlog from "../images/blogscreenshot.png";
 import imgAPI from "../images/apiscreenshot.png";
+import imgDarkroom from "../images/darkroomscreenshot.png";
+import imgPup from "../images/positivepupscreenshot.png";
 
 const cardsData = [
   {
@@ -175,6 +176,44 @@ const cardsData = [
   },
   {
     id: 5,
+    title: "Darkroomdb",
+    skills: ["Full-Stack", "Spring Boot", "Java", "React", "SCSS", "MySQL"],
+    desc: [
+      {
+        id: 1,
+        text: "The goal of this project was to create a full-stack application. Java / Spring Boot was used in conjuction with MySQL to create an API with a database to store the relevant data that would then be added, removed, or simply viewed, using the front-end that was created using React.",
+      },
+      {
+        id: 2,
+        text: "The design of the front-end was drafted with a wireframe in Figma (all links can be seen at the bottom of this document). The website used react-router-dom to create a site with several pages. Users are able to see all the different films in the database when the page initially loads, and these films can be filtered by format, style, and ISO, using the filters on the sidebar.",
+      },
+      {
+        id: 3,
+        text: "HTML Canvas was used to create an interesting background, where a new blurry circle is added to the background on every re-render.",
+      },
+      {
+        id: 4,
+        text: 'When a film on the homepage is clicked, the user is routed through to a film-specific page where data relating to that film is displayed. On this page, a user can select the button "add a rating" to add a rating to the database via a POST request.',
+      },
+      {
+        id: 5,
+        text: "Users can also add a film stock to the database using the button in the website header 'add a film'. All fields bar 'rating' are required.",
+      },
+      {
+        id: 6,
+        text: "The front-end is deployed on GitHub, while the backend is deployed on the Google Cloud Platform.",
+      },
+    ],
+    shortDesc:
+      "The goal of this project was to create a full-stack application.",
+    img: imgDarkroom,
+    links: {
+      github: "https://github.com/samueljacobs98/darkroomdb-fe",
+      deployed: "https://samueljacobs98.github.io/darkroomdb-fe/",
+    },
+  },
+  {
+    id: 6,
     title: "Ticket Tracker",
     skills: ["React", "State-management", "HTML Canvas"],
     desc: [
@@ -215,7 +254,7 @@ const cardsData = [
     },
   },
   {
-    id: 6,
+    id: 7,
     title: "Punk API",
     skills: ["Async Coding", "API Integration", "React"],
     desc: [
@@ -257,20 +296,20 @@ const cardsData = [
     },
   },
   {
-    id: 7,
-    title: "MyVocab",
-    skills: ["JavaScript", "API Integration", "SCSS", "HTML"],
+    id: 8,
+    title: "Positive Pup",
+    skills: ["Agile", "React", "CI/CD", "HTML"],
     desc: [
       {
         id: 1,
-        text: "I carried out this project outside of my course at Nology in an effort to consolidate what I had learnt. The main to focus points of this project was DOM manipulation using JavaScript and utilising data from a API (dictionaryapi.dev).",
+        text: "A real-life MVP for a development project, delivered as an agile team to a client who will use it for future development. A React front-end, using CI and GitHub actions to quality test all code in the code base.",
       },
     ],
-    shortDesc: "A simple DOM manipulation project using API integration.",
-    img: imgVocab,
+    shortDesc: "A real-life MVP, working within an agile team of 8 developers.",
+    img: imgPup,
     links: {
-      github: "https://github.com/samueljacobs98/what-this-mean",
-      deployed: "https://samueljacobs98.github.io/what-this-mean/",
+      github: "https://github.com/nology-tech/positive-pup",
+      deployed: "https://nology-tech.github.io/positive-pup/",
     },
   },
 ];
