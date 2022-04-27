@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website-react/static/css/main.16d252d3.css",
-    "main.js": "/portfolio-website-react/static/js/main.853f285c.js",
+    "main.css": "/portfolio-website-react/static/css/main.4c58129a.css",
+    "main.js": "/portfolio-website-react/static/js/main.8a7792a6.js",
     "static/js/787.0b679274.chunk.js": "/portfolio-website-react/static/js/787.0b679274.chunk.js",
     "static/media/darkroomscreenshot.png": "/portfolio-website-react/static/media/darkroomscreenshot.0c172b74ae9fb946cf68.png",
     "static/media/positivepupscreenshot.png": "/portfolio-website-react/static/media/positivepupscreenshot.f09266f9e1a233cef747.png",
@@ -28,12 +28,12 @@
     "static/media/moon.svg": "/portfolio-website-react/static/media/moon.958e3c2a2d28d333e6fc5d300c68be38.svg",
     "static/media/hamburger.svg": "/portfolio-website-react/static/media/hamburger.130952224907f6679ddb13682e645ed4.svg",
     "static/media/link-lines.svg": "/portfolio-website-react/static/media/link-lines.f47b34909512fc1fae8f40d4fe967ef4.svg",
-    "main.16d252d3.css.map": "/portfolio-website-react/static/css/main.16d252d3.css.map",
-    "main.853f285c.js.map": "/portfolio-website-react/static/js/main.853f285c.js.map",
+    "main.4c58129a.css.map": "/portfolio-website-react/static/css/main.4c58129a.css.map",
+    "main.8a7792a6.js.map": "/portfolio-website-react/static/js/main.8a7792a6.js.map",
     "787.0b679274.chunk.js.map": "/portfolio-website-react/static/js/787.0b679274.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16d252d3.css",
-    "static/js/main.853f285c.js"
+    "static/css/main.4c58129a.css",
+    "static/js/main.8a7792a6.js"
   ]
 }
