@@ -8,7 +8,7 @@ const Contact = () => {
       <h2 className="contact__title">Contact Me</h2>
       <p>sammyjacobscontact@gmail.com</p>
       <a className="contact__anchor" href="mailto:sammyjacobscontact@gmail.com">
-        Click in touch!
+        Get in touch!
       </a>
       <p>or</p>
       <p>
