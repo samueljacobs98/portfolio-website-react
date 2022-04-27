@@ -19,4 +19,12 @@
     z-index: -1;
     @include mixins.floatingAnimation;
   }
+
+  &__link,
+  &__link:visited {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    font-size: 1.2em;
+  }
 }
