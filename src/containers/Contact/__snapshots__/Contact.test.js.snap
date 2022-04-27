@@ -11,12 +11,29 @@ exports[`should match snapshot 1`] = `
     >
       Contact Me
     </h2>
+    <p>
+      sammyjacobscontact@gmail.com
+    </p>
     <a
       class="contact__anchor"
       href="mailto:sammyjacobscontact@gmail.com"
     >
       Get in touch!
     </a>
+    <p>
+      or
+    </p>
+    <p>
+      Connect with me on 
+      <a
+        class="contact__link"
+        href="https://www.linkedin.com/in/samuel-j-66a84ba2/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        LinkedIn!
+      </a>
+    </p>
     <img
       alt=""
       class="contact__earth"
